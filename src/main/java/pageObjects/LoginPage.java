@@ -29,4 +29,10 @@ public class LoginPage
   {
 	 return driver.findElement(login_button);
   }
+  
+  public WebElement getsigin()
+  {
+	 return driver.findElement(login_button);
+  }
+  
 }
